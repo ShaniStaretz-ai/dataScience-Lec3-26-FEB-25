@@ -14,7 +14,9 @@ numpy - Continue - Presentation 19
 * argmin(),argmax(): return the index of the min and max values in the array
 * arr.shape: a parameter and not a function, return the current arr shape as a tuple,
 * copy(): make copy of the origin array (deep copy)- the origin array will not be changed.
-* access values in array: like in list - `arr[0],arr[-1],arr[:7],arr[0:2],arr[2][4],arr[0][::-1]`
+* access values in array: like in list - `arr[0],arr[-1],arr[:7],arr[0:2],arr[2][4],arr[0][::-1],`
+  * access to 4th column in 2d array:`arr5[ :,3]`
+  * access 2nd row in 2d array: `arr5[1]`
 * assign values to elements in array:
   ```
   # the first 10 values change to 100:
